@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+*{
+    margin: 2px;
+    padding: 5px;
+}
+
+body {
+    font-family: Roboto;
+    background: #a298f4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2435ea, #7190f6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ecc0f3, #041fa7);
+  }
+  
+  #container {
+    height: auto;
+    width: 360px;
+    margin: 100px auto;
+    background: #bfe7f9;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  h1 {
+    background: #1F030C;
+    color: white;
+    margin: 0;
+    padding: 30px 50px;
+    /* text-transform: uppercase; */
+    font-size: 35px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  
+  p {
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  form input[type="text"] {
+    width: 90px; 
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+  
+  #billamt {
+    font-size: 18px;
+    color: red; 
+    background-color: #f7f7f7;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+  }
+  
+  #billamt:focus {
+    background: #fff;
+    border: 3px solid #02111b;
+    outline: none;
+  }
+  
+  #peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: rgb(11, 3, 70);  
+    background-color: #f7f7f7;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 2px solid #02111b;
+  }
+  
+  .dollarSign {
+    display: inline;
+  }
+  
+  #serviceQual {
+        padding: 5px 12px 4px 9px;
+        margin-left: auto;
+        font-size: 19px;
+        border-radius: 5px;
+        border: 2px solid #02111b;
+        color: rgb(79, 78, 78);
+  }
+
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #AD133A;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  button:hover {
+    background: #4f25e8;
+    border-bottom-color: #111;
+    cursor: pointer;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+  }
+  
